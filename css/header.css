@@ -1,0 +1,67 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.navbar {
+  width: 800px;
+  height: 68px;
+}
+
+.nav-list {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 40px;
+}
+
+.nav-list li {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-list li a {
+  color: #000;
+  font-family: "Space Grotesk";
+  text-decoration: none;
+  font-weight: 400;
+
+  position: relative;
+}
+
+.nav-list li #get-quote-btn {
+  border: 1px solid black;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  width: 230px;
+  height: 100%;
+}
+
+.nav-list .nav-element a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background-color: #5cb338;
+  transition: width 0.5s ease, transform 0.5s ease;
+}
+
+.nav-list .nav-element:hover {
+  transform: translateY(-5px);
+}
+
+.nav-list .nav-element:hover a::after {
+  width: 100%;
+}

@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Space Grotesk";
+  src: url(../fonts/static/SpaceGrotesk-Regular.ttf),
+    url(../fonts/static/SpaceGrotesk-Bold.ttf);
+}
+
+main {
+  margin-top: 70px;
+  position: relative;
+}
+
+main .main-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main .main-content .quotes {
+  width: 530px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 35px;
+}
+
+main .main-content .quotes .slogan {
+  font-family: "Space Grotesk";
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 100%;
+}
+
+main .main-content .quotes .description {
+  font-family: "Space Grotesk";
+  font-size: 20px;
+  line-height: 28px;
+}
+
+main .quotes a {
+  font-family: "Space Grotesk";
+  text-decoration: none;
+  color: #fff;
+  background-color: #191a23;
+  border: 1px solid #191a23;
+  width: 264px;
+  height: 68px;
+  border-radius: 14px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+main .quotes a:hover {
+  color: #191a23;
+  background-color: #fff;
+}
+
+main .company-logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 48px;
+  margin-top: 140px;
+}
