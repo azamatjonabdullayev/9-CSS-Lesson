@@ -1,9 +1,3 @@
-@font-face {
-  font-family: "Space Grotesk";
-  src: url(../fonts/static/SpaceGrotesk-Regular.ttf),
-    url(../fonts/static/SpaceGrotesk-Bold.ttf);
-}
-
 main {
   margin-top: 70px;
   position: relative;
@@ -50,7 +44,7 @@ main .quotes a {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: color 0.3s ease, background-color 0.3s ease;
+  transition: color 0.5s ease, background-color 0.5s ease;
 }
 
 main .quotes a:hover {

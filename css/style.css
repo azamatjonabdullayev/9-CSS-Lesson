@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-family: "Space Grotesk";
+}
+
 body {
   max-width: 1440px;
   width: 100%;
@@ -16,4 +20,13 @@ body {
   /* border: 2px solid black; */
 
   height: 100vh;
+}
+
+img {
+  pointer-events: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
