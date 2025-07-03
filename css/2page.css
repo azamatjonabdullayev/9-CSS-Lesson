@@ -95,3 +95,60 @@
 .grid-card6 a {
   color: #fff;
 }
+
+.box-proposals {
+  max-width: 1240px;
+  height: 347px;
+  border-radius: 45px;
+  background-color: #f3f3f3;
+  margin: 120px auto 140px auto;
+  padding: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box-proposals .text-area {
+  width: 500px;
+  height: 230px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  row-gap: 26px;
+}
+
+.box-proposals .text-area h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.box-proposals .text-area p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.box-proposals .text-area a {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #fff;
+  cursor: pointer;
+  background-color: #191a23;
+  border: 1px solid #191a23;
+  border-radius: 14px;
+  transition: all 0.5s ease;
+
+  width: 290px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-proposals .text-area a:hover {
+  background-color: #fff;
+  color: #191a23;
+}
